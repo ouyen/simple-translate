@@ -20,7 +20,7 @@ export default props => {
   const handleLinkClick = () => {
     const { inputText, targetLang } = props;
     const encodedText = encodeURIComponent(inputText);
-    const translateUrl = `https://translate.google.com/?sl=auto&tl=${targetLang}&text=${encodedText}`;
+    const translateUrl = `https://translate.google.cn/?sl=auto&tl=${targetLang}&text=${encodedText}`;
     openUrl(translateUrl);
   };
 

@@ -7,7 +7,7 @@ import "../styles/ListenButton.scss";
 const logDir = "popup/AudioButton";
 
 const playAudio = async (text, lang) => {
-  const url = `https://translate.google.com/translate_tts?client=tw-ob&q=${encodeURIComponent(
+  const url = `https://translate.google.cn/translate_tts?client=tw-ob&q=${encodeURIComponent(
     text
   )}&tl=${lang}`;
   const audio = new Audio(url);

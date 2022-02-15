@@ -207,7 +207,7 @@ export default class TranslatePanel extends Component {
                 {getErrorMessage(statusText)}
                 <br />
                 <a
-                  href={`https://translate.google.com/?sl=auto&tl=${currentLang}&text=${encodeURIComponent(selectedText)}`}
+                  href={`https://translate.google.cn/?sl=auto&tl=${currentLang}&text=${encodeURIComponent(selectedText)}`}
                   target="_blank"
                 >
                   {browser.i18n.getMessage("openInGoogleLabel")}
